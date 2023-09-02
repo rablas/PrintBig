@@ -19,7 +19,8 @@ mono_crash.*
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
-[Rr]elease/
+Release/*
+!Release/PrintBig.exe
 [Rr]eleases/
 x64/
 x86/
@@ -31,6 +32,7 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+!/Release/PrintBig.exe
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
